@@ -13,13 +13,14 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
 	ifstream fin;
 
 	// Read the sample grid from the file.
-	string fileName = "sudoku.txt";
-
+	string fileName = argv[1];
+	cout << argv[1] << endl;
+	
 	fin.open(fileName.c_str());
 	if (!fin)
 	{

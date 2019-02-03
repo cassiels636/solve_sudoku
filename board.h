@@ -60,7 +60,7 @@ private:
 	matrix<int> RowConflicts;
 	matrix<int> ColConflicts;
 	matrix<int> SqConflicts;
-	matrix <vector <int>> conflicts;
+	matrix <vector <int> > conflicts;
 	int done;
 };
 
